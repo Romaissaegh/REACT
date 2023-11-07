@@ -1,4 +1,3 @@
-import App from './contactinfo.tsx'
 import './App.css'
 interface Contacts{
     username : string[];
