@@ -1,4 +1,4 @@
-import App from './App.tsx'
+import App from './contactinfo.tsx'
 import './App.css'
 interface Contacts{
     username : string[];
@@ -6,7 +6,7 @@ interface Contacts{
   lien :string[];
 }
 function Add_Contacts(info:Contacts) {
-  return (<div className='Conact'>
+  return (<div className='Contact'>
   <label className="Contact">
     <img className='Logo' src={info.logo[0]}></img>
     <a className='Username' target='_blank' href={info.lien[0]}>{info.username[0]}</a>

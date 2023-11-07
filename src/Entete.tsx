@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
+import Contact_Info from './contactinfo.tsx'
 import Add_Contacts from './Contacts.tsx'
 import CodeforcesLogo from "./assets/Codeforces logo.png";
 import phoneLogo from "./assets/Phone img.jpg"
@@ -21,7 +21,7 @@ function Entet(){
     <div className='Name FirstName'>Mohammed </div>
     <div className='Name LastName'>BENOMAR EL MDEGHRI</div>
     <div className='Desc'>Competitive programmer & Computer science student</div>
-    <App logo={LocationLogo} username='24B LOTS BAB AL ANDALOUS APT5 TGHAT FES'></App> | <App logo={BirthLogo} username="15'th August, 2003" ></App>
+    <Contact_Info logo={LocationLogo} username='24B LOTS BAB AL ANDALOUS APT5 TGHAT FES'></Contact_Info> | <Contact_Info logo={BirthLogo} username="15'th August, 2003" ></Contact_Info>
     <Add_Contacts  username={S} lien={Links} logo={Logos}></Add_Contacts>
     </section>
     );

@@ -3,7 +3,7 @@ interface Informa{
   username : string;
   logo : string;
 };
-function App(info:Informa) {
+function Contact_Info(info:Informa) {
   return (<div className="Contacts">
     <img className='Logo' src={info.logo}></img>
     <label className='Infos'>{info.username}</label>
@@ -11,4 +11,4 @@ function App(info:Informa) {
   )
 }
 
-export default App
+export default Contact_Info
